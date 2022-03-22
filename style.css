@@ -66,10 +66,12 @@ header {
 
 .menuItem {
   padding-right: 40px;
-  min-width: 100px;
-  height: 20px;
   display: flex;
   flex-shrink: 1;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #777777;
 }
 
 main {
@@ -171,6 +173,21 @@ main {
   margin: 0px 9px;
 }
 
+.itemTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.itemPrice {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  padding-left: 10px;
+}
+
 #thirdSection {
   width: 1280px;
   padding-top: 163px;
@@ -227,5 +244,59 @@ main {
 
 footer {
   height: 248px;
+  padding: 0px calc((100vw - 1280px) / 2);
   background-color: #C2185B;
+  color:white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#leftFooterHolder {
+  margin-top: 19px;
+  margin-left: 127px;
+}
+
+#logoFooter {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(img/logo-white.png);
+  width: 233px;
+  height: 123px;
+}
+
+#leftTextFooter {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+#rightFooterHolder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 56px;
+  margin-right: 148px;
+}
+
+#categoriesFooterTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#categoriesFooterText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#institutionalFooterTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#institutionalFooterText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }
